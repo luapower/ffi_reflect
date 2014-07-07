@@ -1,5 +1,5 @@
 local ffi = require "ffi"
-local reflect = require "reflect"
+local reflect = require "ffi_reflect"
 assert((function()return reflect.typeof("void").what == "void" end)())
 assert((function()return reflect.typeof("const void").what == "void" end)())
 assert((function()return reflect.typeof("long").what == "int" end)())
