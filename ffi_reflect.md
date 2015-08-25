@@ -1,5 +1,4 @@
 ---
-project: ffi_reflect
 tagline: luajit ffi reflection
 ---
 
